@@ -23,6 +23,6 @@ spec:
         - secretRef:
             name: db-secret
         name: db-deployment
-        image: harbor.dev.afsmtddso.com/vbritton-habor-project/app:971c881-f5a61ec
+        image: harbor.dev.afsmtddso.com/vbritton-habor-project/db@sha256:9a133031319b56f895939e57aab82a6258fd47f1b35dae2e008fd52d0cf943e4
         ports:
         - containerPort: 5432
